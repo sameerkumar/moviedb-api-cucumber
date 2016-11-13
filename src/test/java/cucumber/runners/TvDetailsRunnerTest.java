@@ -8,5 +8,5 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "classpath:features",
 		glue = "cucumber/stepdefinitions",
 		format = "html:target")
-public class TvDetailsRunner {
+public class TvDetailsRunnerTest {
 }

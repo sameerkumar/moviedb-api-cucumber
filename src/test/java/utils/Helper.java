@@ -57,7 +57,6 @@ public class Helper {
 
 	public boolean isStarInCast(List<Star> stars, String starName) {
 		for (Star star: stars) {
-			System.out.println(star.getCharacter());
 			if(star.getCharacter().equals(starName)){
 				return true;
 			}
